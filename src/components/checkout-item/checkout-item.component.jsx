@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { clearItemFromCart, addItem, removeItem } from '../../redux/cart/cart.actions.js'
 
 import './checkout-item.styles.scss';
-import { removeItemFromCart } from '../../redux/cart/cart.utils.js';
+// import { removeItemFromCart } from '../../redux/cart/cart.utils.js';
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
