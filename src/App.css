@@ -1,9 +1,17 @@
-body{
-   font-family: 'Open Sans Condensed', sans-serif;
-   padding: 20px 60px;
+:root {
+   --main-bg-color: #FFFFFF;
+}
+.dark :root {
+   --main-bg-color: #000000;
 }
 
-a{
+body {
+   font-family: 'Open Sans Condensed', sans-serif;
+   padding: 20px 60px;
+   background-color: var(--main-bg-color);
+}
+
+a {
    text-decoration: none;
    color: black;
 }
