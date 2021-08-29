@@ -42,6 +42,7 @@ const Header = ({ currentUser, hidden }) => (
         hidden ? null:
         <CartDropdown />
     }
+        <p className= king>&#169 2021</p>
   </div>
 );
 
